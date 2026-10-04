@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Palade Daniel — Data & Excel Automation Specialist</title>
+<meta name="description" content="I turn messy data into clean, automated Excel tools: dashboards, formulas, VBA, data cleaning.">
+<style>
+  :root{--navy:#1F4E79;--blue:#4472C4;--light:#D9E1F2;--dark:#333;--gray:#777;--bg:#F7F9FC;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Segoe UI',system-ui,-apple-system,Arial,sans-serif;color:var(--dark);background:var(--bg);line-height:1.6;}
+  a{color:var(--blue);text-decoration:none;}
+  .container{max-width:1080px;margin:0 auto;padding:0 24px;}
+  /* nav */
+  nav{background:#fff;border-bottom:1px solid #e5eaf2;position:sticky;top:0;z-index:10;}
+  .nav-inner{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;max-width:1080px;margin:0 auto;}
+  .logo{font-weight:700;color:var(--navy);font-size:18px;}
+  .logo span{color:var(--blue);}
+  nav a.nav-link{margin-left:20px;font-size:14px;color:var(--dark);font-weight:600;}
+  nav a.nav-link:hover{color:var(--blue);}
+  /* hero */
+  header.hero{background:linear-gradient(135deg,var(--navy) 0%,#2E6DA4 100%);color:#fff;padding:80px 0 70px;text-align:center;}
+  .hero h1{font-size:44px;letter-spacing:1px;}
+  .hero h2{font-size:19px;font-weight:400;color:var(--light);margin-top:10px;}
+  .hero p.tag{margin:18px auto 30px;max-width:640px;color:#c9d8ec;font-size:15px;}
+  .btn{display:inline-block;padding:12px 26px;border-radius:6px;font-weight:600;font-size:15px;margin:0 8px;}
+  .btn-primary{background:#fff;color:var(--navy);}
+  .btn-primary:hover{background:var(--light);}
+  .btn-outline{border:2px solid rgba(255,255,255,.7);color:#fff;}
+  .btn-outline:hover{background:rgba(255,255,255,.15);}
+  /* sections */
+  section{padding:64px 0;}
+  h3.section-title{text-align:center;font-size:28px;color:var(--navy);margin-bottom:8px;}
+  p.section-sub{text-align:center;color:var(--gray);margin-bottom:40px;font-size:15px;}
+  /* skills */
+  .skills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;}
+  .skill{background:#fff;border:1px solid #dbe4f0;border-radius:20px;padding:8px 18px;font-size:14px;font-weight:600;color:var(--navy);}
+  /* projects */
+  #projects{background:#fff;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:26px;}
+  .card{background:var(--bg);border:1px solid #e5eaf2;border-radius:12px;overflow:hidden;transition:transform .18s,box-shadow .18s;}
+  .card:hover{transform:translateY(-4px);box-shadow:0 10px 26px rgba(31,78,121,.13);}
+  .card-head{background:var(--navy);color:#fff;padding:18px 20px;}
+  .card-head .tag{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#9FC1E4;}
+  .card-head h4{font-size:19px;margin-top:4px;}
+  .card-body{padding:18px 20px;}
+  .card-body p{font-size:14px;color:#555;margin-bottom:12px;}
+  ul.feats{list-style:none;margin-bottom:16px;}
+  ul.feats li{font-size:13px;color:var(--dark);padding-left:20px;position:relative;margin-bottom:5px;}
+  ul.feats li::before{content:"✔";position:absolute;left:0;color:var(--blue);}
+  .dl{display:block;text-align:center;background:var(--blue);color:#fff;border-radius:6px;padding:10px;font-size:14px;font-weight:600;}
+  .dl:hover{background:var(--navy);}
+  /* about */
+  .about-box{max-width:760px;margin:0 auto;background:#fff;border:1px solid #e5eaf2;border-radius:12px;padding:32px;}
+  .about-box p{margin-bottom:14px;font-size:15px;}
+  /* contact */
+  #contact{text-align:center;background:linear-gradient(135deg,var(--navy) 0%,#2E6DA4 100%);color:#fff;}
+  #contact h3{font-size:26px;margin-bottom:10px;}
+  #contact p{color:#c9d8ec;margin-bottom:24px;}
+  .contact-btn{display:inline-block;background:#fff;color:var(--navy);padding:14px 32px;border-radius:6px;font-weight:700;font-size:16px;}
+  footer{background:#163A5C;color:#8FA9C6;text-align:center;padding:22px;font-size:13px;}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="logo">Palade<span>.Daniel</span></div>
+    <div>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <h1>PALADE DANIEL</h1>
+    <h2>Data &amp; Excel Automation Specialist</h2>
+    <p class="tag">I turn messy spreadsheets into clean, automated tools — interactive dashboards, complex formulas, VBA and reliable data cleaning. Every file is 100% formula-driven: update the data, everything refreshes.</p>
+    <a class="btn btn-primary" href="#projects">View my work</a>
+    <a class="btn btn-outline" href="#contact">Hire me</a>
+  </div>
+</header>
+
+<section id="skills">
+  <div class="container">
+    <h3 class="section-title">What I work with</h3>
+    <p class="section-sub">Every project below was built with these — download any file and open it in Excel to see the formulas at work.</p>
+    <div class="skills">
+      <span class="skill">PivotTables</span><span class="skill">Power Query</span><span class="skill">VBA Macros</span>
+      <span class="skill">SUMIFS / COUNTIFS</span><span class="skill">INDEX / MATCH</span><span class="skill">SUMPRODUCT logic</span>
+      <span class="skill">Dashboard design</span><span class="skill">Data cleaning</span><span class="skill">Conditional formatting</span>
+      <span class="skill">Google Sheets</span>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <h3 class="section-title">Portfolio projects</h3>
+    <p class="section-sub">Five complete Excel solutions. Each includes a formatted data sheet, a hidden calculation engine and a fully formula-driven dashboard.</p>
+    <div class="grid">
+
+      <div class="card">
+        <div class="card-head"><span class="tag">Automotive · Sales</span><h4>Car Dealership Sales Dashboard</h4></div>
+        <div class="card-body">
+          <p>Full-year dealership performance: 144 sales records turned into a management cockpit.</p>
+          <ul class="feats">
+            <li>Revenue by car model &amp; fuel type</li>
+            <li>Monthly revenue trend</li>
+            <li>Salesperson leaderboard</li>
+            <li>KPIs: revenue, units, avg price, top model</li>
+          </ul>
+          <a class="dl" href="Car_Sales_Dashboard.xlsx" download>⬇ Download .xlsx</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head"><span class="tag">Retail · Inventory</span><h4>Store Inventory Tracker</h4></div>
+        <div class="card-body">
+          <p>Retail stock overview with low-stock alerts, built on 30 SKUs across 5 categories.</p>
+          <ul class="feats">
+            <li>Total stock value &amp; units</li>
+            <li>Low-stock alert counter (SUMPRODUCT)</li>
+            <li>Top 10 products by value</li>
+            <li>Category &amp; supplier breakdown</li>
+          </ul>
+          <a class="dl" href="Store_Inventory_Tracker.xlsx" download>⬇ Download .xlsx</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head"><span class="tag">HR · Attendance</span><h4>Employee Attendance Report</h4></div>
+        <div class="card-body">
+          <p>Monthly attendance tracking for 10 employees across 5 departments, 12 months.</p>
+          <ul class="feats">
+            <li>Attendance rate by employee &amp; department</li>
+            <li>Late-day tracking per person</li>
+            <li>Monthly trend &amp; perfect-month counter</li>
+            <li>Best department / employee highlights</li>
+          </ul>
+          <a class="dl" href="Employee_Attendance_Report.xlsx" download>⬇ Download .xlsx</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head"><span class="tag">Finance · A/R</span><h4>Customer Payments Tracker</h4></div>
+        <div class="card-body">
+          <p>Accounts-receivable control panel over 120 invoices: who owes, how much, and how late.</p>
+          <ul class="feats">
+            <li>Collected vs outstanding vs overdue</li>
+            <li>Collection rate &amp; overdue amounts</li>
+            <li>Biggest debtor ranking (SUMIFS)</li>
+            <li>Days-overdue calculation per invoice</li>
+          </ul>
+          <a class="dl" href="Customer_Payments_Tracker.xlsx" download>⬇ Download .xlsx</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head"><span class="tag">Data Cleaning · Demo</span><h4>Sales Dashboard: Raw to Refined</h4></div>
+        <div class="card-body">
+          <p>Before/after case study: a messy client export cleaned, standardized and turned into a dashboard.</p>
+          <ul class="feats">
+            <li>Raw data vs cleaned data sheets</li>
+            <li>Standardized dates, names &amp; formats</li>
+            <li>8 KPI cards + 4 dynamic charts</li>
+            <li>Rebuilt in under 2 hours</li>
+          </ul>
+          <a class="dl" href="Sales_Dashboard_Demo.xlsx" download>⬇ Download .xlsx</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h3 class="section-title">About me</h3>
+    <p class="section-sub">Detail-driven, deadline-driven.</p>
+    <div class="about-box">
+      <p>I'm a data specialist focused on one thing: making spreadsheets actually <strong>work</strong> for the people who use them. Most businesses drown in manual copy-paste reporting — I replace that with clean data, smart formulas and dashboards that update themselves.</p>
+      <p>My delivery philosophy is simple: honest deadlines, clear communication, and files documented well enough that anyone on your team can keep using them after I'm done.</p>
+      <p><strong>Working languages:</strong> English (fluent) · Romanian (native)</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h3>Have an Excel headache?</h3>
+    <p>Send me your file and a short description — I'll reply with exactly how I'd fix it, and what it would cost.</p>
+    <a class="contact-btn" href="mailto:daniel.palade.freelance@gmail.com">✉ Contact me</a>
+  </div>
+</section>
+
+<footer>© 2026 Palade Daniel · Data &amp; Excel Automation Specialist</footer>
+
+</body>
+</html>
